@@ -104,7 +104,7 @@ Max absolute error vs math.cos: 0.000000e+00
 From the `assignment_1/` directory:
 
 ```bash
-python -m unittest discover -v
+python -m unittest -v
 ```
 
 Or run individual test modules:

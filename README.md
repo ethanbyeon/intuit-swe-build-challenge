@@ -43,8 +43,52 @@ Run all tests:
 
 ```bash
 cd assignment_1
-python -m unittest discover -v
+python -m unittest -v
 ```
 
 For more details on the design, blocking behavior, and test coverage,
 see [assignment_1/README.md](assignment_1/README.md).
+
+---
+
+## Assignment 2: Sales Analysis
+
+**Path:** `assignment_2/` \
+**Language:** Python 3.10+
+
+Performs aggregation and grouping queries over a small sales dataset for a
+spicy chicken sandwich shop. The focus is on:
+
+- CSV based data ingestion.
+- Functional style analysis functions (iterables, lambdas, `map`, `sorted`).
+- Grouped and aggregated business metrics.
+
+### Structure
+
+```text
+assignment_2/
+    hot_chicken_sales.csv  # Sample sales dataset
+    sales_analysis.py      # Data model, CSV loader, analysis functions
+    run_analysis.py        # Main file
+    test_sales_analysis.py # Unit tests for all analysis functions
+    README.md              # Detailed design and usage
+```
+
+### How to run Assignment 2
+
+From the repo root:
+
+```bash
+cd assignment_2
+python run_analysis.py
+```
+
+Run all tests:
+
+```bash
+cd assignment_2
+python -m unittest -v
+```
+
+For more details on the design, dataset, and test coverage,
+see [assignment_2/README.md](assignment_2/README.md).

@@ -1,0 +1,13 @@
+order_id,order_datetime,store_id,store_city,item,category,quantity,unit_price,payment_method,order_total
+3001,2025-11-20 12:15,LA-01,Los Angeles,Spicy Chicken Sandwich,sandwich,2,12.00,card,24.00
+3002,2025-11-20 12:16,LA-01,Los Angeles,Chicken Sandwich,sandwich,1,9.00,cash,9.00
+3003,2025-11-20 12:30,LA-02,Burbank,Spicy Tenders,tenders,1,10.00,card,10.00
+3004,2025-11-20 12:31,LA-02,Burbank,Fries,sides,1,3.00,card,3.00
+3005,2025-11-20 12:32,LA-01,Los Angeles,Spicy Chicken Sandwich,sandwich,1,12.00,card,12.00
+3006,2025-11-20 12:33,LA-03,Glendale,Fries,sides,3,3.00,card,9.00
+3007,2025-11-20 12:34,LA-03,Glendale,Lemonade,drinks,2,2.00,card,4.00
+3008,2025-11-20 12:35,LA-01,Los Angeles,Chicken Sandwich,sandwich,1,9.00,card,9.00
+3009,2025-11-20 12:36,LA-02,Burbank,Spicy Chicken Sandwich,sandwich,3,12.00,card,36.00
+3010,2025-11-21 13:01,LA-03,Glendale,Spicy Tenders,tenders,2,10.00,card,20.00
+3011,2025-11-21 13:01,LA-03,Glendale,Vanilla Shake,drinks,1,3.00,card,3.00
+3012,2025-11-21 13:02,LA-02,Burbank,Chicken Sandwich,sandwich,1,9.00,card,9.00
