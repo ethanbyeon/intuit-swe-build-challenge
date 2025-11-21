@@ -49,6 +49,15 @@ python -m unittest -v
 For more details on the design, blocking behavior, and test coverage,
 see [assignment_1/README.md](assignment_1/README.md).
 
+### Sample Output
+
+For full output and details, see [assignment_1/README.md](assignment_1/README.md).
+
+```text
+Processed 8192 items in 0.011018 seconds
+Max absolute error vs math.cos: 0.000000e+00
+```
+
 ---
 
 ## Assignment 2: Sales Analysis
@@ -92,3 +101,56 @@ python -m unittest -v
 
 For more details on the design, dataset, and test coverage,
 see [assignment_2/README.md](assignment_2/README.md).
+
+### Sample Output
+
+For full output and details, see [assignment_2/README.md](assignment_2/README.md).
+
+```text
+==================================================
+         Spicy Chicken Shop Sales Summary
+==================================================
+Date range   : 2025-11-20 to 2025-11-21
+Total orders : 12
+Total revenue: $148.00
+--------------------------------------------------
+
+Revenue by city
+--------------------------------------------------
+Burbank                  : $     58.00
+Glendale                 : $     36.00
+Los Angeles              : $     54.00
+
+Revenue by category
+--------------------------------------------------
+drinks                   : $      7.00
+sandwich                 : $     99.00
+sides                    : $     12.00
+tenders                  : $     30.00
+
+Top 5 items by revenue
+--------------------------------------------------
+Spicy Chicken Sandwich   : $     72.00
+Spicy Tenders            : $     30.00
+Chicken Sandwich         : $     27.00
+Fries                    : $     12.00
+Lemonade                 : $      4.00
+
+Total quantity sold per item
+--------------------------------------------------
+Chicken Sandwich         :    3
+Fries                    :    4
+Lemonade                 :    2
+Spicy Chicken Sandwich   :    6
+Spicy Tenders            :    3
+Vanilla Shake            :    1
+
+Revenue by payment method
+--------------------------------------------------
+card                     : $    139.00
+cash                     : $      9.00
+--------------------------------------------------
+
+Average order total: $12.33
+==================================================
+```

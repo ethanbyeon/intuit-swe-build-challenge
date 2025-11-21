@@ -94,7 +94,7 @@ This will:
 
 Example output (timing will vary):
 
-```bash
+```text
 Processed 8192 items in 0.011018 seconds
 Max absolute error vs math.cos: 0.000000e+00
 ```
